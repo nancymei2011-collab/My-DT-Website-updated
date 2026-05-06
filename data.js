@@ -74,25 +74,25 @@ const showcaseData = [
     sections: [
       {
         title: "Python Programming",
-        subtitle: "Coding Practice",
-        text: "Python programming helped me learn problem solving, variables, loops, functions and logical thinking.",
-        image: "images/python.jpg"
+        subtitle: "Grok Certificate",
+        text: " ",
+        image: "images/certificate-nancy-mei-python-for-beginners.pdf"
       }
     ]
   },
 
   {
-    id: "3d-modelling",
+    id: "3D-Modelling",
     navTitle: "3D Modelling",
     cardTitle: "3D Modelling",
-    subtitle: "Fusion360 Project",
+    subtitle: "Blender Creation",
     image: "images/3d-modelling.jpg",
-    description: "This section shows my 3D modelling project created in Fusion360.",
+    description: "This is a chest I made in Blender.",
     sections: [
       {
         title: "3D Modelling",
-        subtitle: "Fusion360 Project",
-        text: "This is a 3D model I created in Fusion360. It helped me learn design, modelling and digital manufacturing skills.",
+        subtitle: "Chest created in Blender",
+        text: " ",
         image: "images/3d-modelling.jpg"
       }
     ]
