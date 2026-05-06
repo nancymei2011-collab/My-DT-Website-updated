@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  background: #f3f5f9;
+  color: #222;
+}
+
+/* Header */
+.site-header {
+  height: 78px;
+  background: white;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 800;
+  color: #2f5bea;
+}
+
+.site-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 26px;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2c2c2c;
+  background: #eef0f6;
+
+  padding: 12px 26px;
+  border-radius: 30px;
+
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #2f5bea;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  padding: 60px 20px;   /* 上下缩小 */
+  background-image: url("images/Website Header.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 22px;
+}
+
+.hero p {
+  font-size: 30px;
+}
+
+/* Home */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.container h2 {
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 26px;
+}
+
+.showcase-card {
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.showcase-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-image {
+  height: 210px;
+  overflow: hidden;
+  background: #ddd;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-content h3 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.card-content h4 {
+  color: #2f5bea;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Detail page */
+.detail-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 42px auto;
+}
+
+/* 图片在上 文字在下 卡片 */
+
+.detail-vertical-card {
+  max-width: 700px;
+  margin: 30px auto;
+  border-radius: 24px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+.detail-top-image {
+  height: 260px;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-top-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.detail-bottom-text {
+  padding: 30px;
+}
+
+.detail-bottom-text h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.detail-bottom-text h3 {
+  font-size: 20px;
+  color: #2f5bea;
+  margin-bottom: 12px;
+}
+
+.detail-bottom-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #2f5bea;
+  color: white;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+footer {
+  text-align: center;
+   background: #f0edff;
+  color: #555;
+  padding: 24px;
+  border-top: 1px solid #ddd;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .site-header {
+    height: auto;
+    padding: 18px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+}
+.detail-page-title {
+  padding: 40px;
+  border-radius: 24px;
+  margin-bottom: 30px;
+
+  background-image: url("images/Website Header.png");  /* 你的banner */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+}
+
+.detail-page-title h1 {
+  font-size: 44px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.detail-page-title p {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.5;
+}
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 26px;
+  margin-top: 30px;
+}
+.detail-vertical-card {
+  width: 100%;
+}
