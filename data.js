@@ -76,7 +76,7 @@ const showcaseData = [
         title: "Python Programming",
         subtitle: "Grok Certificate",
         text: " ",
-        image: "images/certificate-nancy-mei-python-for-beginners.pdf"
+        image: "images/Grok certificate.png"
       }
     ]
   },
@@ -86,14 +86,14 @@ const showcaseData = [
     navTitle: "3D Modelling",
     cardTitle: "3D Modelling",
     subtitle: "Blender Creation",
-    image: "images/3d-modelling.jpg",
-    description: "This is a chest I made in Blender.",
+    image: "images/City view.png",
+    description: "This is a city I made in Blender.",
     sections: [
       {
         title: "3D Modelling",
-        subtitle: "Chest created in Blender",
+        subtitle: "City created in Blender",
         text: " ",
-        image: "images/3d-modelling.jpg"
+        image: "images/City view.png"
       }
     ]
   }
