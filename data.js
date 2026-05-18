@@ -86,15 +86,33 @@ const showcaseData = [
     navTitle: "3D Modelling",
     cardTitle: "3D Modelling",
     subtitle: "Blender Creation",
-    image: "images/City view.png",
-    description: "This is a city I made in Blender.",
+    image: "images/blender logo.png",
+    description: "These are the models I made in Blender.",
     sections: [
       {
-        title: "3D Modelling",
-        subtitle: "City created in Blender",
+        title: "City",
+        subtitle: " ",
         text: " ",
         image: "images/City view.png"
-      }
+      },
+      {
+        title: "Donut",
+        subtitle: " ",
+        text: " ",
+        image: "images/Donut.png"
+      },
+      {
+        title: "Hot Chocolate",
+        subtitle: " ",
+        text: " ",
+        image: "images/Mug with hot chocolate.png"
+      },
+      {
+        title: "Sword",
+        subtitle: " ",
+        text: " ",
+        image: "images/Sword.png"
+      },
     ]
   }
 ];
