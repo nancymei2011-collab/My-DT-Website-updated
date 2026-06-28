@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#ffffff"/>
+  <g transform="translate(160 105)">
+    <path fill="#f57900" d="M95 168c-18 0-33-15-33-33s15-33 33-33h168L208 47c-13-13-13-34 0-47s34-13 47 0l112 112c9 9 12 21 8 33 41 7 78 25 107 53 39 36 61 83 61 132 0 103-96 187-214 187s-214-84-214-187c0-24 5-48 16-70l-66 38c-16 9-36 4-45-12s-4-36 12-45l124-72H95z"/>
+    <ellipse cx="329" cy="330" rx="147" ry="126" fill="#ffffff"/>
+    <ellipse cx="329" cy="330" rx="82" ry="70" fill="#2b5c8a"/>
+  </g>
+  <text x="450" y="505" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" fill="#2b5c8a">blender</text>
+</svg>
