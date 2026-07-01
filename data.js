@@ -137,8 +137,15 @@ const showcaseData = [
     navTitle: "D4M",
     cardTitle: "D4M",
     subtitle: "Design for Manufacturing",
-    image: "images/Website Header.png",
-    description: "Design for Manufacturing work will be added here.",
-    sections: []
+    image: "images/Bedroom.png",
+    description: "This section shows my Design for Manufacturing project.",
+    sections: [
+      {
+        title: "Bedroom",
+        subtitle: "Design for Manufacturing",
+        text: "This is my bedroom design created for my Design for Manufacturing project.",
+        image: "images/Bedroom.png"
+      }
+    ]
   }
 ];
