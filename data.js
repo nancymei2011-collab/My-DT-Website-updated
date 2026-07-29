@@ -150,7 +150,7 @@ const showcaseData = [
         title: "Fidget Toy",
         subtitle: "Design for Manufacturing",
         text: "This is my fidget toy design created for my Design for Manufacturing project.",
-        image: "images/fidget toy 1.jpg"
+        image: "images/fidget toy 1.png"
       }
     ]
   }
