@@ -85,7 +85,7 @@ const showcaseData = [
     navTitle: "3D Modelling",
     cardTitle: "3D Modelling",
     subtitle: "Blender Models",
-    image: "images/Donut.png",
+    image: "images/blender logo.png",
     description: "This section shows the 3D models I created in Blender.",
     sections: [
       {
@@ -120,7 +120,7 @@ const showcaseData = [
     navTitle: "Animation",
     cardTitle: "Animation",
     subtitle: "Cube Jumping Animation",
-    image: "images/blender logo.png",
+    image: "images/Donut + Hot Chocolate.png",
     description: "This section shows my Blender animation project.",
     sections: [
       {
@@ -137,7 +137,7 @@ const showcaseData = [
     navTitle: "D4M",
     cardTitle: "D4M",
     subtitle: "Design for Manufacturing",
-    image: "images/Bedroom.png",
+    image: "images/fusion 360 logo.webp",
     description: "This section shows my Design for Manufacturing project.",
     sections: [
       {
@@ -145,6 +145,12 @@ const showcaseData = [
         subtitle: "Design for Manufacturing",
         text: "This is my bedroom design created for my Design for Manufacturing project.",
         image: "images/Bedroom.png"
+      },
+      {
+        title: "Fidget Toy",
+        subtitle: "Design for Manufacturing",
+        text: "This is my fidget toy design created for my Design for Manufacturing project.",
+        image: "images/fidget toy 1.jpg"
       }
     ]
   }

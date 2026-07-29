@@ -16,7 +16,7 @@ if (navbar) {
 if (showcaseGrid) {
   showcaseData.forEach(item => {
     const card = document.createElement("a");
-    card.className = "showcase-card";
+    card.className = `showcase-card project-${item.id}`;
     card.href = `detail.html?id=${item.id}`;
 
     card.innerHTML = `
