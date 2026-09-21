@@ -76,6 +76,13 @@ const showcaseData = [
         subtitle: "Coding Practice",
         text: "Python programming helped me learn problem solving, variables, loops, functions and logical thinking.",
         image: "images/python.jpg"
+      },
+      {
+        title: "Number Recall",
+        subtitle: "Memory Game",
+        text: "This is a number recall game I published on itch.io.",
+        embedUrl: "https://itch.io/embed/5038113",
+        projectUrl: "https://nancymei2011-collab.itch.io/number-recall"
       }
     ]
   },

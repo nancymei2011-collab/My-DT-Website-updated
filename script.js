@@ -54,7 +54,15 @@ if (detailContent) {
     <section class="detail-vertical-card">
 
       <div class="detail-top-image">
-        ${section.video ? `
+        ${section.embedUrl ? `
+          <iframe
+            src="${section.embedUrl}"
+            title="${section.title} on itch.io"
+            loading="lazy"
+            allowfullscreen>
+            <a href="${section.projectUrl}">${section.title} by nancymei2011-collab</a>
+          </iframe>
+        ` : section.video ? `
           <video controls>
             <source src="${section.video}" type="video/mp4">
           </video>

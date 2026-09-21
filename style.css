@@ -201,10 +201,15 @@ body {
 }
 
 .detail-top-image img,
-.detail-top-image video {
+.detail-top-image video,
+.detail-top-image iframe {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.detail-top-image iframe {
+  border: 0;
 }
 
 .detail-top-image video {
