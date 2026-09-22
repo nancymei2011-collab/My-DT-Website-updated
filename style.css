@@ -279,6 +279,23 @@ body {
   line-height: 1.5;
 }
 
+.project-link {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  background: #fa5c5c;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(250, 92, 92, 0.28);
+}
+
 .back-button {
   display: inline-block;
   padding: 12px 24px;

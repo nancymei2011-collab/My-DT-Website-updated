@@ -91,8 +91,9 @@ const showcaseData = [
       {
         title: "Number Recall",
         subtitle: "Memory Game",
-        text: "This is a number recall game I created and prepared for itch.io.",
-        notice: "The Number Recall page is not currently published on itch.io."
+        text: "This is a number recall game I created and published on itch.io.",
+        embedUrl: "https://itch.io/embed/5038113",
+        projectUrl: "https://nancymei2011-collab.itch.io/number-recall"
       }
     ]
   },

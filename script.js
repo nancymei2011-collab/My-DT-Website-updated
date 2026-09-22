@@ -84,6 +84,11 @@ if (detailContent) {
         <h2>${section.title}</h2>
         <h3>${section.subtitle}</h3>
         <p>${section.text}</p>
+        ${section.projectUrl ? `
+          <a class="project-link" href="${section.projectUrl}" target="_blank" rel="noopener noreferrer">
+            Play ${section.title} on itch.io
+          </a>
+        ` : ""}
       </div>
 
     </section>
