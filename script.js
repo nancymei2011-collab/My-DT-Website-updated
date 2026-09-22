@@ -21,7 +21,11 @@ if (showcaseGrid) {
 
     card.innerHTML = `
       <div class="card-image">
-        <img src="${item.image}" alt="${item.cardTitle}">
+        ${item.icon ? `
+          <span class="card-icon" role="img" aria-label="${item.cardTitle}">${item.icon}</span>
+        ` : `
+          <img src="${item.image}" alt="${item.cardTitle}">
+        `}
       </div>
 
       <div class="card-content">
@@ -54,7 +58,12 @@ if (detailContent) {
     <section class="detail-vertical-card">
 
       <div class="detail-top-image">
-        ${section.embedUrl ? `
+        ${section.notice ? `
+          <div class="project-notice">
+            <span class="project-notice-icon" aria-hidden="true">🎮</span>
+            <p>${section.notice}</p>
+          </div>
+        ` : section.embedUrl ? `
           <iframe
             src="${section.embedUrl}"
             title="${section.title} on itch.io"

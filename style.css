@@ -142,6 +142,18 @@ body {
   object-fit: cover;
 }
 
+.card-icon {
+  font-size: 96px;
+  line-height: 1;
+}
+
+.project-video-game-development .card-image {
+  background: linear-gradient(135deg, #d9d2ff, #cbeeea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-3d-modelling .card-image,
 .project-design-for-manufacturing .card-image {
   background: white;
@@ -210,6 +222,32 @@ body {
 
 .detail-top-image iframe {
   border: 0;
+}
+
+.project-notice {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background: linear-gradient(135deg, #d9d2ff, #cbeeea);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.project-notice-icon {
+  font-size: 64px;
+}
+
+.project-notice p {
+  max-width: 430px;
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .detail-top-image video {
