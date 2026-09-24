@@ -1,12 +1,13 @@
 const navbar = document.getElementById("navbar");
 const showcaseGrid = document.getElementById("showcaseGrid");
 const detailContent = document.getElementById("detailContent");
+const siteVersion = "20260924-1";
 
 /* Header navigation */
 if (navbar) {
   showcaseData.forEach(item => {
     const navLink = document.createElement("a");
-    navLink.href = `detail.html?id=${item.id}`;
+    navLink.href = `detail.html?id=${item.id}&v=${siteVersion}`;
     navLink.textContent = item.navTitle;
     navbar.appendChild(navLink);
   });
@@ -17,7 +18,7 @@ if (showcaseGrid) {
   showcaseData.forEach(item => {
     const card = document.createElement("a");
     card.className = `showcase-card project-${item.id}`;
-    card.href = `detail.html?id=${item.id}`;
+    card.href = `detail.html?id=${item.id}&v=${siteVersion}`;
 
     card.innerHTML = `
       <div class="card-image">
