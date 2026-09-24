@@ -75,7 +75,7 @@ body {
 
 /* Hero */
 .hero {
-  padding: 18px 20px;
+  padding: 28px 20px;
   background-image: url("images/Website Header.png");
   background-size: cover;
   background-position: center;
@@ -87,12 +87,12 @@ body {
 }
 
 .hero h1 {
-  font-size: 44px;
-  margin-bottom: 8px;
+  font-size: 52px;
+  margin-bottom: 12px;
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 /* Home */
@@ -335,15 +335,15 @@ footer {
   }
 
   .hero {
-    padding: 16px;
+    padding: 22px 16px;
   }
 
   .hero h1 {
-    font-size: 34px;
+    font-size: 38px;
   }
 
   .hero p {
-    font-size: 17px;
+    font-size: 19px;
   }
 }
 .detail-page-title {
